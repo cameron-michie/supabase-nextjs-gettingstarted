@@ -17,13 +17,7 @@ A demo application showcasing various features of Supabase with Next.js.
 
 You'll need a Supabase project. You can create one for free at [supabase.com](https://supabase.com).
 
-This project requires environment variables to run. Rename the `.env.example` file to `.env.local` and add your Supabase project URL and anon key. I can not do this for you, you must do it yourself.
-
-```bash
-cp .env.example .env.local
-```
-
-Your `.env.local` should look like this:
+This project requires environment variables to run. Your `.env.local` should look like this:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
